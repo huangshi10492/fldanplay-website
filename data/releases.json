@@ -1,0 +1,109 @@
+{
+  "releases": [
+    {
+      "version": "0.4.3",
+      "publishedAt": "2026-07-30T14:59:38Z",
+      "changelog": "## 新增\r\n- 新增待观看数角标\r\n- 新增收藏功能\r\n- 自动刷新登录凭证\r\n- 流媒体库增加观看状态相关功能\r\n- 流媒体详细页下拉刷新\r\n\r\n## 修复\r\n- 键盘控制下指示器没有隐藏\r\n- 切换视频导致唤醒锁失效\r\n\r\n## 其他\r\n- 优化音频列表显示\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.4.2...v0.4.3"
+    },
+    {
+      "version": "0.4.2",
+      "publishedAt": "2026-07-01T14:09:23Z",
+      "changelog": "# 0.4.2\r\n### 将android端的本地文件读取改为SAF，需要重新设置\r\n\r\n# 0.4.1\r\n## 新增\r\n- 播放列表支持滚动到当集\r\n- 播放时弹幕更新无缝加载\r\n- 播放界面防误触锁\r\n- 播放界面截图\r\n\r\n## 修复\r\n- 网络链接url编码导致文件名显示错误\r\n- 开始播放时处于缓冲状态导致历史记录重置\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.4.0...v0.4.2"
+    },
+    {
+      "version": "0.4.0",
+      "publishedAt": "2026-06-11T14:00:07Z",
+      "changelog": "# 重要更改\r\n弹幕服务接入[弹弹play开放平台](https://www.dandanplay.com)，默认弹幕服务地址更改为`https://api.dandanplay.net`\r\n\r\n## 新增\r\n-  Android支持gpu-next，改善性能\r\n- 使用Anime4K实现超分辨率\r\n- 支持调节默认字幕字体大小和位置\r\n- 关于界面\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.3.3...v0.4.0"
+    },
+    {
+      "version": "0.3.3",
+      "publishedAt": "2026-05-10T12:42:42Z",
+      "changelog": "## 新增\r\n- 流媒体库继续观看\r\n- 支持UI缩放\r\n\r\n## 改进\r\n- 切换分集后速度不重置\r\n\r\n## 其他\r\n- 移除孤立文件清理\r\n- 优化了一些UI\r\n- 调整了一些功能\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.3.2...v0.3.3"
+    },
+    {
+      "version": "0.3.2",
+      "publishedAt": "2026-03-18T13:20:07Z",
+      "changelog": "## 新增\r\n- 弹幕趋势图和章节条\r\n- 弹幕关键词过滤\r\n- 始终显示进度条\r\n- 增加deb和exe安装程序\r\n\r\n## 修复\r\n- 切换集数无法上报对应集数的播放状态\r\n\r\n## 其他\r\n- 优化播放服务\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.3.1...v0.3.2"
+    },
+    {
+      "version": "0.3.1",
+      "publishedAt": "2026-02-16T15:40:52Z",
+      "changelog": "## 新增\r\n- 统一使用MiSans字体\r\n- 支持MiSans作为字幕字体直接导入\r\n\r\n## 修复\r\n- 使用远程历史记录后无法播放\r\n- 历史记录错误提示不显示\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.3.0...v0.3.1"
+    },
+    {
+      "version": "0.3.0",
+      "publishedAt": "2026-02-15T07:51:15Z",
+      "changelog": "# 破坏性更新\r\n- 弹幕服务器改为列表，需要重新设置服务地址\r\n- 字体管理重构，需要重新设置字体\r\n\r\n## 新增\r\n- 更灵活的缓存区大小调节\r\n- 播放器视频列表显示播放状态\r\n- 维护功能，可以对应用数据进行备份、还原和清理\r\n- 支持流媒体库服务器上历史记录的读取和上报\r\n\r\n## 改进\r\n- 弹幕服务器改为列表，匹配时将根据列表顺序依次匹配直到有匹配结果\r\n- 字体管理重构，所有平台可自定义字幕字体\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.2.10...v0.3.0"
+    },
+    {
+      "version": "0.2.10",
+      "publishedAt": "2026-01-09T10:50:05Z",
+      "changelog": "## 新增\r\n- 更精细的速度调节\r\n- 流媒体库播放列表支持显示历史记录\r\n- 主题颜色选择弹窗\r\n- 桌面端使用mpv控制音量\r\n\r\n## 修复\r\n- 部分场景缺少弹幕加载提示\r\n- 文件浏览导航栏无法滑动\r\n\r\n_下一个版本为0.3.0_\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.2.9...v0.2.10"
+    },
+    {
+      "version": "0.2.9",
+      "publishedAt": "2025-12-29T13:21:56Z",
+      "changelog": "## 新增\r\n- 弹幕信息面板\r\n## 修复\r\n- FSelectMenuTile更新导致选择错误\r\n- 流媒体库切换集数无法获取弹幕‘\r\n- 章节读取功能失效\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.2.8...v0.2.9"
+    },
+    {
+      "version": "0.2.8",
+      "publishedAt": "2025-12-23T13:34:32Z",
+      "changelog": "## 新增\r\n- 提供弹幕跟随视频速度开关\r\n- 可以设置长按加速是否跟随当前播放速度\r\n- 将windows界面字体固定为微软雅黑\r\n- 流媒体库使用文件名匹配弹幕\r\n## 改进\r\n- 优化错误处理和配套的界面\r\n## 修复\r\n- 流媒体库详细页列表顶部出现多余空间\r\n- 恢复历史记录失效\r\n- 台式电脑无法获取电量导致崩溃\r\n- 播放器界面提前退出导致弹窗报错\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.2.7...v0.2.8"
+    },
+    {
+      "version": "0.2.7",
+      "publishedAt": "2025-11-10T13:27:05Z",
+      "changelog": "## 新增\r\n- 弹幕匹配状态在未播放时也能显示\r\n- 流媒体库优先使用搜索的方式获取弹幕\r\n- 更精细的弹幕区域选项\r\n- 文件浏览支持筛选\r\n## 改进\r\n- 流媒体详细界面优化和浏览网格优化\r\n- 图标优化\r\n- 播放器弹幕相关界面优化\r\n## 修复\r\n- 弹窗手动搜索弹幕保存后没有提示和关闭弹窗\r\n- 媒体库编辑Key校验和不可更改丢失\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.2.6...v0.2.7"
+    },
+    {
+      "version": "0.2.6",
+      "publishedAt": "2025-10-28T16:23:20Z",
+      "changelog": "## 新增\r\n- 在历史记录界面播放视频会优先使用离线缓存\r\n- 视频列表长按显示弹幕匹配弹窗，用于预获取弹幕\r\n- 列表支持鼠标右键替代长按功能\r\n- 快进、后退、快进按钮（跳过OP/ED）秒数可配置\r\n## 修复\r\n- 文件浏览Breadcrumb跳转错误\r\n- 播放时物理音量按键偶然失效\r\n## 其他\r\n- 设置界面优化宽屏显示\r\n\r\n## Full Changelog\r\nhttps://github.com/huangshi10492/flutter_danmaku_player/compare/v0.2.5...v0.2.6"
+    },
+    {
+      "version": "0.2.5",
+      "publishedAt": "2025-10-18T13:21:08Z",
+      "changelog": "## 新增\r\n- 离线缓存功能\r\n- 播放视频时优先使用离线缓存，可在设置关闭\r\n- 删除历史记录时删除弹幕和缩略图\r\n\r\n## 其他\r\n- 设置界面优化\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_play/compare/v0.2.4...v0.2.5"
+    },
+    {
+      "version": "0.2.4",
+      "publishedAt": "2025-10-13T16:21:32Z",
+      "changelog": "## 新增\r\n- 耳机拔出将会暂停视频播放\r\n- 列表显示弹幕匹配标识\r\n\r\n## 修复\r\n- 媒体库编辑时name、uniqueKey和storageType没有保存\r\n- 部分选项校验url导致无法保存\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_play/compare/v0.2.3...v0.2.4"
+    },
+    {
+      "version": "0.2.3",
+      "publishedAt": "2025-10-10T15:52:47Z",
+      "changelog": "## 改进\r\n- toast显示优化\r\n- 媒体库编辑界面优化\r\n\r\n## 修复\r\n- 相对跳转小于0导致跳转到视频末尾\r\n- 开始播放时历史记录不恢复\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_play/compare/v0.2.2...v0.2.3"
+    },
+    {
+      "version": "0.2.2",
+      "publishedAt": "2025-10-06T12:38:19Z",
+      "changelog": "## 新增\r\n- 获取视频数据的章节数据并跳转，与85秒快进互补\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_play/compare/v0.2.1...v0.2.2"
+    },
+    {
+      "version": "0.2.1",
+      "publishedAt": "2025-10-05T02:03:06Z",
+      "changelog": "## 新增\r\n- 播放信息侧栏\r\n\r\n## 修复\r\n- 流媒体信息空白显示\r\n- 弹幕延迟调整不生效\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_play/compare/v0.2.0...v0.2.1"
+    },
+    {
+      "version": "0.2.0",
+      "publishedAt": "2025-10-02T05:32:48Z",
+      "changelog": "# 破坏性更新\r\n- 修改流媒体登录信息，需要重新登录\r\n- 修改数据存放位置，0.2.x具备迁移功能，后续版本将移除\r\n\r\n## 新增\r\n- 支持emby\r\n- 筛选状态显示和筛选按钮上滑隐藏\r\n- 播放器错误提示\r\n\r\n## 修复\r\n- 流媒体库的空白图片在滑动时闪烁\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_play/compare/v0.1.2...v0.2.0"
+    },
+    {
+      "version": "0.1.2",
+      "publishedAt": "2025-10-01T05:34:27Z",
+      "changelog": "## 新增\r\n- 流媒体库可筛选节目\r\n\r\n## 修复\r\n- StreamMediaExplorerPage重复初始化\r\n- 筛选界面被软键盘遮挡\r\n- 桌面端在竖屏状态无法弹出介绍\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_play/compare/v0.1.1...v0.1.2"
+    },
+    {
+      "version": "0.1.1",
+      "publishedAt": "2025-09-29T12:20:51Z",
+      "changelog": "- 调整播放器的防误触范围\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_play/compare/v0.1.0...v0.1.1"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": "2025-09-27T06:11:27Z",
+      "changelog": ""
+    }
+  ]
+}
