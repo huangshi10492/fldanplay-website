@@ -1,0 +1,33 @@
+---
+title: 更新日志
+---
+
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import releasesData from '../data/releases.json';
+
+{
+  releasesData.releases.map((release) => (
+    <section id={`release-${release.version}`}>
+      <div className="flex items-baseline gap-4 flex-wrap">
+        <h3 class="text-4xl">{release.version}</h3>
+        <span className="text-sm">
+          {new Date(release.publishedAt).toLocaleDateString('zh-CN', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+          })}
+        </span>
+      </div>
+      <Card className="w-full">
+        {release.changelog ? (
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            {release.changelog}
+          </ReactMarkdown>
+        ) : (
+          <p className="prose">该版本无更新日志。</p>
+        )}
+      </Card>
+    </section>
+  ))
+}
