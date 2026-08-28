@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.4.5",
+      "publishedAt": "2026-08-28T16:15:27Z",
+      "changelog": "## 新增\r\n- 支持dpad焦点导航，可使用键盘、遥控器、手柄等设备控制\r\n- tv版播放界面，针对dpad进行优化\r\n- Android视频输出补充mediacodec_embed\r\n- 版本更新检查器\r\n\r\n## 优化\r\n- 调整媒体库筛选按钮位置\r\n- Android 禁用 Impeller\r\n- 优化系统栏样式\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.4.3...v0.4.5"
+    },
+    {
       "version": "0.4.3",
       "publishedAt": "2026-07-30T14:59:38Z",
       "changelog": "## 新增\r\n- 新增待观看数角标\r\n- 新增收藏功能\r\n- 自动刷新登录凭证\r\n- 流媒体库增加观看状态相关功能\r\n- 流媒体详细页下拉刷新\r\n\r\n## 修复\r\n- 键盘控制下指示器没有隐藏\r\n- 切换视频导致唤醒锁失效\r\n\r\n## 其他\r\n- 优化音频列表显示\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.4.2...v0.4.3"
