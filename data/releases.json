@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.4.7",
+      "publishedAt": "2026-10-02T02:52:47Z",
+      "changelog": "## 新增\r\n- 流媒体库支持转码\r\n- 流媒体库可通过服务器获取章节信息\r\n- 增加弹幕hash计算进度反馈\r\n- smb支持hash计算\r\n- 文件媒体库支持自动加载外挂字幕\r\n- 离线缓存支持自动下载外挂字幕\r\n- 缓存界面新增显示历史记录\r\n\r\n## 优化\r\n- 优化弹幕匹配信息处理和流媒体网络请求\r\n- 改进弹幕匹配对话框样式\r\n- 在维护界面清理历史时显示清理的具体日期\r\n- 优化进度条时间位置\r\n- 文件媒体库返回时自动滚动到之前的位置\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.4.6...v0.4.7"
+    },
+    {
       "version": "0.4.6",
       "publishedAt": "2026-09-12T14:10:55Z",
       "changelog": "## 新增\r\n- 支持ftp\r\n- 支持smb（libsmb2实现）\r\n\r\n## 修复\r\n- 播放界面底部进度条颜色错误\r\n\r\n## 优化\r\n- 改进媒体库信息编辑界面\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.4.5...v0.4.6"
