@@ -7,6 +7,7 @@ import { defineDocs } from "fumadocs-mdx/macro";
 import releases from "./data/releases.json";
 
 const DocsLayout = createDocsLayoutPage<typeof config.$context>({
+  renderPageActions: () => null,
   render(page) {
     if (page.absolutePath?.endsWith("content/changelog.mdx")) {
       return {
