@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.5.1",
+      "publishedAt": "2026-10-31T08:44:23Z",
+      "changelog": "## 新增\r\n- 飞牛影视部分实现\r\n\r\n## 修复\r\n- windows端播放快照异常\r\n\r\n## 优化\r\n- 从继续播放进入详情页禁用Hero动画\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.5.0...v0.5.1"
+    },
+    {
       "version": "0.5.0",
       "publishedAt": "2026-10-18T15:11:21Z",
       "changelog": "# 破坏性更新\r\n- 重写Storage数据库结构\r\n- 修改视频uniqueKey生成逻辑和视频虚拟路径\r\n\r\n## 优化\r\n- 优化播放快照生成速度\r\n- 优化媒体库编辑表单结构\r\n- 优化长按上下文菜单\r\n- 优化dpad焦点系统（支持手柄操作，覆盖更多界面）\r\n\r\n## 修复\r\n- 流媒体库无法记忆收藏界面选择\r\n\r\n**Full Changelog**: https://github.com/huangshi10492/flutter_danmaku_player/compare/v0.4.7...v0.5.0"
